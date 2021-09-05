@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>LevelUp</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="promo">
+            <header>
+                <h1>LevelUp</h1>
+                <h3>Средство для повышения потенции</h3>
+            </header>
+            <video autoplay loop muted class="bgvideo">
+                <source src="bg.mp4" type="video/mp4"></source>
+            </video>
+            <div class="promo-description">
+                <div  class="promo-block">
+                    <img src="img/prod.png" width="100px" hight="50px">
+                </div>
+                <div class="promo-block">
+                    <ul>
+                        <li>Подходит для мужчин любого возраста</li>
+                        <li>Не вызывает привыкание</li>
+                        <li>Можно употреблять с алкоголем</li>
+                    </ul>
+                    <div>
+                        <a href="#form"><button class="btn promo-btn">Заказать</button></a>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+        <div class="composition">
+            <div class="composition-block">
+                <ul>
+                    <li>
+                        <img src="img/img1.jpg">
+                        <div>Витамин C</div>
+                    </li>
+                    <li>
+                        <img src="img/img2.jpg">
+                        <div>Ибупрофен</div>
+                    </li>
+                    <li>
+                        <img src="img/img3.jpg">
+                        <div>Сахар</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="composition-block">
+                <header><h2>Только натуральные ингридиенты</h2></header>
+                <img src="img/prod.png">
+                <a href="#form"><button class="btn composition-btn">Заказать</button></a>
+            </div>
+            <div class="composition-block">
+                <ul>
+                    <li>
+                        <img src="img/img4.png">
+                        <div>Яйцо</div>
+                    </li>
+                    <li>
+                        <img src="img/img5.jpg">
+                        <div>Счастья</div>
+                    </li>
+                    <li>
+                        <img src="img/img6.jfif">
+                        <div>Здоровья</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="feedback">
+            <header><h2>Отзывы наших клиентов</h2></header>
+            <div class="gallery">
+                <div class="gallery-buttons">
+                    <button class="prev"><img src="img/up.png"></button>
+                    <button class="next"><img src="img/down.png"></button>
+                </div>
+                <div class="gallery-block">
+                    <img src="img/face1.jpg">
+                    <div>
+                        <h3>Андрей, 22 года, Киев</h3>
+                        <blockquote>Если вы хотите чувствовать себя увереннее, средство LevelUp - это то, что нужно!</blockquote>
+                    </div>
+                </div>
+                <div class="gallery-block">
+                    <img src="img/face2.jpg">
+                    <div>
+                        <h3>Антонио, 35 лет, Воронеж</h3>
+                        <blockquote>Приятная цена, приятный вкус, стабильный результат!</blockquote>
+                    </div>
+                </div>
+                <div class="gallery-block">
+                    <img src="img/face3.jpg">
+                    <div>
+                        <h3>Иван, 82 года, Иваново</h3>
+                        <blockquote>Топ за свои деньги!</blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="commercial">
+            <div class="commercial-blocks">
+                <img src="img/doctor.png">
+                <blockquote>LevelUp - средство для мужской потенции. Одобрено для употребление более чем в ста странах. Не вызывает привыкания. Перед употреблением проконсультируйтесь со специалистом.</blockquote>
+            </div>
+            <ul class="commercial-list">
+                <li>Подходит для всех возрастов</li>
+                <li>Без ГМО</li>
+                <li>Экологичная упаковка</li>
+                <li><a href="#form"><button class="btn commercial-btn">Заказать</button></a></li>
+            </ul>
+            
+        </div>
+        
+        <div class="form">
+            <a name="form"></a>
+            <header><h1>LevelUp</h1></header>
+            <div class="form-hat">
+                <div>
+                    <del>19999</del>
+                    <div class="new-price">9999 рублей</div>
+                    <div class="new-price-2">9999 рублей</div>
+                </div>
+                <div class="timer">
+                    <p>До конца акции:</p>
+                    <div class="countdown">30:00</div>
+                </div>  
+            </div>
+            <div class="form-blocks">
+                <div class="form-inputs">
+                    <h3>Успейте оформить заказ!</h3>
+                    <p>Как к вам обращаться?</p>
+                    <div>
+                        <div class="example name-example">Например: Иван</div>
+                        <input class="name" type="text" required>
+                    </div>
+                    <p>Номер телефона</p>
+                    <div>
+                        <div class="example tel-example">Например: 891234567890</div>
+                        <input class="tel" type="tel" maxlength="11" required>
+                    </div>
+                    <button class="form-btn">Оформить заказ</button>
+                </div>
+                <img src="img/prod.png">
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
